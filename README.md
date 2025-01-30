@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rentcars - Car Rental Landing Page
 
-## Getting Started
+Rentcars is a responsive and animated landing page created to showcase a car rental business. This project is designed as part of my portfolio to demonstrate my front-end development skills, including animation, styling, and responsiveness.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern Design**: Clean, visually appealing layout with a professional aesthetic.
+- **Responsive**: Fully optimized for devices of all sizes, ensuring a great user experience on mobile, tablet, and desktop.
+- **Framer Motion Animations**: Smooth and interactive animations to enhance user engagement.
+- **Showcase Sections**:
+  - Highlights of top car rental deals.
+  - A simple explanation of the booking process.
+  - Customer testimonials to build trust.
+  - Promotion of a mobile app for additional convenience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: For building a performant React-based web app with server-side rendering.
+- **TypeScript**: For better type safety and maintainable code.
+- **Tailwind CSS**: For efficient and consistent styling with utility-first classes.
+- **Shadcn UI**: For reusable and modern UI components.
+- **Framer Motion**: For creating smooth, interactive animations.
+- **Vercel**: For deployment and hosting.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Purpose
 
-## Learn More
+This landing page was created as part of my portfolio to demonstrate my proficiency in modern front-end technologies, animations, and responsive design.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation and Running Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/amr12338kh/Rentcars.git
+   cd Rentcars
