@@ -4,7 +4,7 @@ export const headerContainerVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.8,
       staggerChildren: 0.1,
@@ -19,7 +19,7 @@ export const headerItemVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.6,
     },
@@ -32,7 +32,7 @@ export const headerButtonVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.6,
     },
@@ -50,7 +50,7 @@ export const sidebarContainerVariants = {
     height: "auto",
     opacity: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0,
       duration: 0.4,
       staggerChildren: 0.1,
@@ -75,21 +75,6 @@ export const sidebarItemVariants = {
   },
 };
 
-// export const sidebarButtonVariants = {
-//     hidden: {
-//       opacity: 0,
-//       y: 20,
-//     },
-//     visible: {
-//       opacity: 1,
-//       y: 0,
-//       transition: {
-//         duration: 0.3,
-//         ease: "easeOut",
-//       },
-//     },
-//   };
-
 export const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -110,7 +95,7 @@ export const titleVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.8,
     },
@@ -126,7 +111,7 @@ export const spanVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.5,
       duration: 0.8,
       delay: 0.4,
@@ -145,7 +130,7 @@ export const underlineVariants = {
     scale: 1,
     x: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.6,
       duration: 0.6,
       delay: 0.6,
@@ -162,7 +147,7 @@ export const frameVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 1.2,
     },
@@ -182,7 +167,7 @@ export const rightCarVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.8,
       delay: 0.2,
@@ -204,7 +189,7 @@ export const leftCarVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.8,
       delay: 0.2,
@@ -219,8 +204,8 @@ export const floatingAnimation = {
     y: {
       duration: 2,
       repeat: Infinity,
-      repeatType: "reverse",
-      ease: "easeInOut",
+      repeatType: "reverse" as const,
+      ease: "easeInOut" as const,
     },
   },
 };
@@ -231,7 +216,7 @@ export const buttonVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.6,
     },
@@ -244,7 +229,7 @@ export const carCardVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.8,
     },
@@ -257,7 +242,7 @@ export const carCardTextVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.6,
       delay: i * 0.1,
@@ -274,7 +259,7 @@ export const boxVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.8,
     },
@@ -290,7 +275,7 @@ export const iconVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.5,
       duration: 0.6,
       delay: 0.4,
@@ -307,7 +292,7 @@ export const boxTextVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.3,
       duration: 0.6,
       delay: i * 0.05,
@@ -320,7 +305,7 @@ export const subTitleVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { type: "spring", bounce: 0.3, duration: 1 },
+    transition: { type: "spring" as const, bounce: 0.3, duration: 1 },
   },
 };
 
@@ -330,7 +315,7 @@ export const wordVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 0.5,
       delay: i * 0.1,
@@ -347,7 +332,7 @@ export const phoneVariants = {
     opacity: 1,
     y: 10,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       bounce: 0.4,
       duration: 1,
     },
